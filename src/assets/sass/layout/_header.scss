@@ -1,0 +1,36 @@
+/*============ Header Start Here =======================*/
+
+.header-area {
+    background: hsl(var(--black));
+    .only-menu {
+        background: #272728;
+        padding: 18px 28px;
+        border-radius: 4px;
+        .main-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li {
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        .header-feature {
+             a {
+                padding: 0px 16px;
+                color: #ffffff;
+                border-right: 1px solid #484848;
+                font-size: 15px;
+                &:last-child {
+                    border: 0;
+                }
+                i {
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+}
+
+/*============ Header End Here =======================*/

@@ -1,0 +1,98 @@
+/* ========================== Banner Area Start ========================== */
+
+.banner-area {
+    height: 710px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .banner-content {
+        margin-top: 110px;
+        h2 {
+           color: #fff;
+           font-size: 45px;
+           text-transform: uppercase;
+           width: 94%;
+           margin-bottom: 25px;
+        }
+        .game-rating  {
+            i {
+                color: hsl(var(--base));
+                font-size: 23px;
+                margin-right: 1px;
+            }
+            .people-rated {
+                color: #fff;
+                font-size: 23px;
+            }
+        }
+
+        .price {
+            margin-top: 40px;
+            margin-bottom: 23px;
+            .main-price {
+                font-size: 40px;
+                color: #fff;
+            }
+            .pre-price {
+                color: rgba(255, 255, 255, 0.58);
+                font-size: 20px;
+            }
+            .save-money {
+                background: hsl(var(--base));
+                color: #292929;
+                font-weight: 500;
+                padding: 5px 9px;
+                font-size: 20px;
+                border-radius: 4px;
+            }
+        }
+
+    }
+    .banner-img {
+        margin-top: 17px;
+    }
+    .more-products {
+        margin-top: -150px;
+        .single-more-product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+            height: 108px;
+            width: 310px;
+            border-radius: 4px;
+            overflow: hidden;
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+            img {
+                width: 195px;
+                object-fit: contain;
+                transition: .3s;
+            }
+            .more-product-details {
+                margin-left: 20px;
+                .more-product-title {
+                    font-size: 16px;
+                    font-weight: 700;
+                    margin-bottom: 7px;
+                }
+                .more-product-price {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+.btn-defult {
+    background: hsl(var(--base));
+    padding: 9px 23px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #292929;
+}
+
+/* ========================== Banner Area End ========================== */

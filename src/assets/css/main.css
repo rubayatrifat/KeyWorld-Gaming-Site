@@ -5881,6 +5881,113 @@ html {
     display: none;
 }
 
+/* ========================== Banner Area Start ========================== */
+.banner-area {
+    height: 710px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-area .banner-content {
+    margin-top: 110px;
+}
+
+.banner-area .banner-content h2 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase;
+    width: 94%;
+    margin-bottom: 25px;
+}
+
+.banner-area .banner-content .game-rating i {
+    color: hsl(var(--base));
+    font-size: 23px;
+    margin-right: 1px;
+}
+
+.banner-area .banner-content .game-rating .people-rated {
+    color: #fff;
+    font-size: 23px;
+}
+
+.banner-area .banner-content .price {
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.banner-area .banner-content .price .main-price {
+    font-size: 40px;
+    color: #fff;
+}
+
+.banner-area .banner-content .price .pre-price {
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 20px;
+}
+
+.banner-area .banner-content .price .save-money {
+    background: hsl(var(--base));
+    color: #292929;
+    font-weight: 500;
+    padding: 5px 9px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.banner-area .banner-img {
+    margin-top: 17px;
+}
+
+.banner-area .more-products {
+    margin-top: -150px;
+}
+
+.banner-area .more-products .single-more-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    height: 108px;
+    width: 310px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.banner-area .more-products .single-more-product:hover img {
+    transform: scale(1.1);
+}
+
+.banner-area .more-products .single-more-product img {
+    width: 195px;
+    object-fit: contain;
+    transition: 0.3s;
+}
+
+.banner-area .more-products .single-more-product .more-product-details {
+    margin-left: 20px;
+}
+
+.banner-area .more-products .single-more-product .more-product-details .more-product-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.banner-area .more-products .single-more-product .more-product-details .more-product-price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-defult {
+    background: hsl(var(--base));
+    padding: 9px 23px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #292929;
+}
+
+/* ========================== Banner Area End ========================== */
 /*====================== About Section Start====================*/
 .about-area {
     position: relative;

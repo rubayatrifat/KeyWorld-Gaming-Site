@@ -1,0 +1,77 @@
+/*================ Top Header Start Here ================*/
+
+.header-top {
+    background-color: hsl(var(--black));
+    padding: 25px 0;
+    .header-search-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            background: #272728;
+            padding: 10px 10px;
+            color: rgba(255, 255, 255, 0.60);
+            border-radius: 4px 0 0 4px;
+        }
+        .category {
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            background: #272728;
+            padding: 11.5px 10px;
+            color: hsl(var(--white));
+            border-left: 0;
+            option {
+                color: rgba(255, 255, 255, 0.6);
+            }
+        }
+        .header-search-btn {
+            background: hsl(var(--base));
+            text-align: center;
+            padding: 11px 16px;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            i {
+                color: #292929;
+                font-size: 18px;
+            }
+        }
+    }
+    .header-top-options {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .language {
+            i {
+                color: hsl(var(--white));
+            }
+            .all-languages {
+                background: transparent;
+                border: 0;
+                color: hsl(var(--white));
+                margin-right: 20px;
+                option {
+                    color: #000;
+                }
+            }
+        }
+        .sign-in {
+            a {
+                color: #fff;
+                margin-right: 20px;
+                i {
+                    margin-right: 3px;
+                }
+            }
+        }
+        .shoping-cart {
+            padding: 10px 14px;
+            background: #272728;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+// ================ Top Header End Here ================

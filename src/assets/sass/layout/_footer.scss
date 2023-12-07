@@ -1,0 +1,93 @@
+
+/*============= Footer Start Here =======================*/
+
+.footer-area {
+    background: hsl(var(--base)/0.1);
+    padding: 75px 0 35px 0;
+    .left-footer {
+        .footer-logo-text {
+            img {
+               margin-bottom: 35px;
+           }
+           p {
+               margin-bottom: 20px;
+           }
+       }
+       .social-icons {
+           i {
+               color: #fff;
+               background: #000;
+               width: 45px;
+               height: 45px;
+               text-align: center;
+               line-height: 45px;
+               border-radius: 50%;
+               font-size: 19px;
+               margin-left: 8px;
+           }
+       }
+    }
+    h3 {
+        font-weight: 600;
+        margin-top: 25px;
+    }
+
+    .useful-links {
+        .links {
+            a {
+                display: block;
+                font-size: 18px;
+                color: #6F6870;
+                font-family: var(--body-font);
+                margin-bottom: 11px;
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .contact-info {
+        .infos {
+            .single-info {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                margin-bottom: 24px;
+                font-family: var(--body-font);
+                i {
+                    color: hsl(var(--base));
+                    font-size: 24px;
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    .newsletter {
+        .email-input {
+            display: flex;
+            align-items: center;
+            input {
+                border: none;
+                margin-top: 27px;
+                padding: 25px 0 11px 25px;
+                font-size: 19px;
+                border-radius: 15px 0 0 15px;
+            }
+
+            i {
+                background: hsl(var(--base));
+                color: #fff;
+                padding: 23px 23px;
+                margin-top: 25.5px;
+                font-size: 19px;
+                border-radius: 0 15px 15px 0;
+                cursor: pointer;
+            }
+        }    
+    }
+
+}
+
+/* ============= Footer End Here ======================= */
+
+

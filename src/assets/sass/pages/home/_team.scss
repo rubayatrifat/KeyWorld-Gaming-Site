@@ -1,0 +1,45 @@
+/*============= Team Area Start Here =============*/
+
+.team-area {
+    padding: 65px 0;
+    position: relative;
+    .team-wav {
+        position: absolute;
+        bottom: -50px;
+        z-index: 3;
+    }
+    .team-single-slider {
+        margin-top: 70px;
+        transition: all ease-in-out .3s;
+        .team-member-img {
+            img {
+                border-radius: 50%;
+                outline: 0px dotted hsl(var(--base));
+                border: 10px solid transparent;
+                margin-bottom: 30px;
+            }
+        }
+        .member-content {
+            text-align: center;
+            h3 {
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.team-single-slider:hover {
+    .team-member-img {
+        img {
+            border-radius: 50%;
+            outline: 3px dashed hsl(var(--base));
+        }
+    }
+
+}
+
+/*============= Team Area End Here =============*/

@@ -1,0 +1,64 @@
+/* =================== Featured Start Here ==================== */
+
+.feature-area {
+    background: hsl(var(--base)/.1);
+    padding: 200px 0;
+    position: relative;
+    .features {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        .single-feature {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            margin-right: -100px;
+            margin-bottom: 45px;
+            img {
+                width: 133px;
+            }
+            .featured-text {
+                margin-left: 22px;
+                h3 {
+                    font-size: 24px;
+                    margin-bottom: 2px;
+                    font-weight: 600;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+    .feature-wav {
+        bottom: 0px;
+        position: absolute;
+    }
+}
+
+.feature-shapes {
+    img {
+        position: absolute;
+    }
+    .bird-2 {
+        left: 5%;
+        top: 9%;
+    }
+    .star {
+        right: 8%;
+        top: 9%;
+    }
+    .tree {
+        left: 71px;
+        bottom: 36px;
+    }    
+    .flower {
+        right: 56px;
+        bottom: 6px;
+    }
+}
+
+/* =================== Featured End Here ==================== */

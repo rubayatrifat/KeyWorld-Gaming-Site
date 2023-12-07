@@ -1,0 +1,101 @@
+/*====================== Ticket End Here ====================*/
+
+.ticket-prcing {
+    padding: 170px 0 110px 0;
+    position: relative;
+    .pricing-shapes {
+        img {                               
+            position: absolute;
+        }
+        .flower2 {                  
+            right: 5%;
+            top: 28%;
+        }
+        .bee {
+            bottom: 5%;
+            left: 2%;
+        }
+    }
+    .pricing-wav {
+        position: absolute;
+        bottom: -50px;
+        z-index: 3;
+    }
+    .single-ticket {
+        text-align: center;
+        padding: 50px 20px;
+        height: 412px;
+        border-radius: 7px;
+        transition: .3s;
+        .ticket-img {
+            margin-bottom: 60px;
+        }
+        .title-price {
+            h3 {
+                font-size: 58px;
+                font-weight: 700;
+                margin-bottom: 0;
+                span {
+                    font-size: 28px;
+                    font-weight: 500;
+                    margin-left: -3px;
+                }
+            }
+            span {
+                font-size: 22px;
+                font-weight: 600;
+                margin-bottom: 32px;
+                display: inline-block;
+            }
+        }
+        .ticket-btn {
+            a{
+                font-size: 16px;
+                font-family: var(--body-font);
+                font-weight: 600;
+            }
+        }
+    }
+
+    
+    .single-ticket:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+    
+    .pink {
+        background-color: #FBDEED;
+        h3 {
+            color: #E2127F;
+        }
+        .ticket-btn {
+            a{
+                color: #E2127F;
+            }
+        }
+    }
+    .yello {
+        background-color: #FEF7DE;
+        h3 {
+            color: #F8C312;
+        }
+        .ticket-btn {
+            a{
+                color: #F8C312;
+            }
+        }
+    }
+    .violate {
+        background-color: #E8E1ED;
+        h3 {
+            color: #5E2C82;
+        }
+        .ticket-btn {
+            a{
+                color: #5E2C82;
+            }
+        }
+    }
+ 
+}
+
+/*====================== Ticket End Here ====================*/

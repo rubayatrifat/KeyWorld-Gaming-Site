@@ -1,0 +1,117 @@
+/* ================== Testimonial section started ================== */
+
+.testimonial-area {
+    background-color: hsl(var(--base)/.1);
+    padding: 145px 0;
+    position: relative;
+    .testimonial-wav {
+        position: absolute;
+        bottom: 0;
+    }
+    .single-testimonial  {
+        position: relative;
+        .testimonial-publisher {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 33px;
+            margin-top: 9px;
+            img {
+                width: 80px;
+                border-radius: 50%;
+            }
+            .publisher-info {
+                margin-left: 15px;
+                margin-top: 10px;
+                h3 {
+                    margin-bottom: 0;
+                    font-size: 26px;
+                    font-weight: 600;
+                }
+                span {
+                    font-size: 18px;
+                }
+            }
+        }
+        .testimonial-text {
+            top: 52px;
+            left: 30px;
+            position: absolute;
+            p {
+                font-size: 18px;
+                color: #676F6F;
+            }
+        }
+        .client-rating {
+            position: absolute;
+            top: 203px;
+            left: 35px;
+            i {
+                font-size: 16px;
+                margin-left: 8px;
+            }
+        }
+    }
+
+    .single-testimonial.blue {
+        .testimonial-content {
+            background-image: url(../images/testimonials/1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 285px;
+        }
+        .client-rating {
+            i {
+                color: #2DC4E5;
+            }
+        }
+        .testimonial-publisher {
+            img {
+                border: 8px solid #2DC4E5;
+            }
+        }
+    }
+
+    .single-testimonial.yellow {
+        .testimonial-content {
+            background-image: url(../images/testimonials/2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 285px;
+        }
+        .client-rating {
+            i {
+                color: #F8C312;
+            }
+        }
+        .testimonial-publisher {
+            img {
+                border: 8px solid #F8C312;
+            }
+        }
+    }
+
+    .single-testimonial.pink {
+        .testimonial-content {
+            background-image: url(../images/testimonials/3.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 285px;
+        }
+        .client-rating {
+            i {
+                color: #ED67AD;
+            }
+        }
+        .testimonial-publisher {
+            img {
+                border: 8px solid #ED67AD;
+            }
+        }
+    }
+}
+
+
+
+
+/* ================== Testimonial section end ================== */

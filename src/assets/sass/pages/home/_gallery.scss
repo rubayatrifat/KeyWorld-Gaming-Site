@@ -1,0 +1,9 @@
+.gallery-area {
+    background-color: hsl(var(--base)/0.1);
+    padding: 149px 0 10px 0;
+    position: relative;
+    .gallery-wav {
+        position: absolute;
+        bottom: 0;
+    }
+}
